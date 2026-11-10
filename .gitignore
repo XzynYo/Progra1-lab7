@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+x64/
+*.user
+*.VC.db
+*.VC.opendb
+
+# Archivos generados al compilar
+Debug/
+Release/
+QtWidget.*/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.log
+*.tlog
+*.recipe
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.dt.d.json
+*.dt.module.json
+*.dt.module.json.command
+
+# Qt generado (uic/moc/rcc se regeneran al compilar)
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
